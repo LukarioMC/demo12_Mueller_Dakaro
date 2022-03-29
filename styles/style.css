@@ -8,3 +8,35 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+
+/*
+  These are custom bootstrap overrides for website theming.
+*/
+.bg-primary {
+  background-color: #6c96cf !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #e2dbcc;
+}
+
+.btn-primary {
+  color: #EFD9CE;
+  background-color: #b45a41;
+  border-color: #292a31;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #292a31;
+  border-color: #a675A1;
+}
+
+body {
+  background-color: #e2dbcc;
+}
+
+.navbar-brand{
+  font-family: 'Rock 3D', cursive;
+  font-size: 2.25rem;
+}
